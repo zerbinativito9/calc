@@ -30,22 +30,22 @@
         }
 
         function soma($n1, $n2) {
-            return $n1 + $n2;
+            return $n1 + $n2;  // Fim da operação de adição
         }
 
         function subtracao($n1, $n2) {
-            return $n1 - $n2;
+            return $n1 - $n2;  // Fim da operação de subtração
         }
 
         function multiplicacao($n1, $n2) {
-            return $n1 * $n2;
+            return $n1 * $n2;  // Fim da operação de multiplicação
         }
 
         function divisao($n1, $n2) {
             if ($n2 == 0) {
-                return "Erro: Divisão por zero!";
+                return "Erro: Divisão por zero!";  // Fim da operação de divisão
             }
-            return $n1 / $n2;
+            return $n1 / $n2;  // Fim da operação de divisão
         }
 
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
